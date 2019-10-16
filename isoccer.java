@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class senha
+public class isoccer
 {
 	public static String[][] funcionarios= new String[10000][8];
 	public static String[][] socios= new String[10000][9];
