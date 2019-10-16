@@ -341,7 +341,7 @@ public class isoccer
 				System.out.print("\nOnibus adicionado\n\n");
 				recursos[i3][j3]="1";
 				recursos[i3][j3+1]="Indisponivel";
-				senha.i3++;
+				isoccer.i3++;
 			}
 			else if (ent.equals("2"))
 			{
@@ -380,7 +380,7 @@ public class isoccer
 				recursos[i3][j3+2]="0";
 				recursos[i3][j3+3]="0";
 				recursos[i3][j3+4]="0";
-				senha.i3++;
+				isoccer.i3++;
 			}
 			else if (ent.equals("2"))
 			{
@@ -452,7 +452,7 @@ public class isoccer
 				recursos[i3][j3]="3";
 				recursos[i3][j3+1]="Indisponivel";
 				recursos[i3][j3+2]="0";
-				senha.i3++;
+				isoccer.i3++;
 			}
 			else if (ent.equals("2"))
 			{
@@ -539,7 +539,7 @@ public class isoccer
 			socios[i2][j2+7]=obj.nextLine();
 			System.out.print("\nDigite o tipo de socio:\n\n");
 			socios[i2][j2+8]=obj.nextLine();
-			senha.i2++;
+			isoccer.i2++;
 		}
 		else if (ent.equals("2"))
 		{
@@ -643,7 +643,7 @@ public class isoccer
 			System.out.print("\nDigite o telefone:\n\n");
 			funcionarios[i][j+5]=obj.nextLine();
 			System.out.print("\nFuncionario adicionado.\n\n");
-			senha.i++;
+			isoccer.i++;
 			return;
 		}
 		else if (funcionario.equals("2"))//medico
@@ -662,7 +662,7 @@ public class isoccer
 			System.out.print("\nDigite o CRM:\n\n");
 			funcionarios[i][j+6]=obj.nextLine();
 			System.out.print("\nFuncionario adicionado.\n\n");
-			senha.i++;
+			isoccer.i++;
 			return;
 		}
 		else if (funcionario.equals("3"))//tecnico
@@ -679,7 +679,7 @@ public class isoccer
 			System.out.print("\nDigite o telefone:\n\n");
 			funcionarios[i][j+5]=obj.nextLine();
 			System.out.print("\nFuncionario adicionado.\n\n");
-			senha.i++;
+			isoccer.i++;
 			return;
 		}
 		else if (funcionario.equals("4"))//preparador fisico
@@ -696,7 +696,7 @@ public class isoccer
 			System.out.print("\nDigite o telefone:\n\n");
 			funcionarios[i][j+5]=obj.nextLine();
 			System.out.print("\nFuncionario adicionado.\n\n");
-			senha.i++;
+			isoccer.i++;
 			return;
 		}
 		else if (funcionario.equals("5"))//motorista
@@ -715,7 +715,7 @@ public class isoccer
 			System.out.print("\nDigite o numero de habilitacao:\n\n");
 			funcionarios[i][j+6]=obj.nextLine();
 			System.out.print("\nFuncionario adicionado.\n\n");
-			senha.i++;
+			isoccer.i++;
 			return;
 		}
 		else if (funcionario.equals("6"))//cozinheiro
@@ -732,7 +732,7 @@ public class isoccer
 			System.out.print("\nDigite o telefone:\n\n");
 			funcionarios[i][j+5]=obj.nextLine();
 			System.out.print("\nFuncionario adicionado.\n\n");
-			senha.i++;
+			isoccer.i++;
 			return;
 		}
 		else if (funcionario.equals("7"))//advogados
@@ -749,7 +749,7 @@ public class isoccer
 			System.out.print("\nDigite o telefone:\n\n");
 			funcionarios[i][j+5]=obj.nextLine();
 			System.out.print("\nFuncionario adicionado.\n\n");
-			senha.i++;
+			isoccer.i++;
 			return;
 		}
 		else if (funcionario.equals("8"))//jogador
@@ -770,7 +770,7 @@ public class isoccer
 			System.out.print("\nDigite se o jogador esta apto ou nao-apto:\n\n");
 			funcionarios[i][j+7]=obj.nextLine();
 			System.out.print("\nFuncionario adicionado.\n\n");
-			senha.i++;
+			isoccer.i++;
 			return;
 		}
 	}
